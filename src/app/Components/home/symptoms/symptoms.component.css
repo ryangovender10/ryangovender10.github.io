@@ -46,20 +46,20 @@ strong{
 @media(max-width:850px)
 {
     .resize{
-        margin-top: 60%!important;
+        /* margin-top: 60%!important; */
     }
 }
 @media(max-width:766px)
 {
     .resize{
-        margin-top: 100%!important;
+        margin-top: 150%!important;
     }
 }
 
 @media(max-width:632px)
 {
     .resize{
-        margin-top: 125%!important;
+        margin-top: 185%!important;
     }
     .imgStuff{
         transform: scaleX(1)!important;
@@ -68,7 +68,7 @@ strong{
 @media(max-width:560px)
 {
     .resize{
-        margin-top: 160%!important;
+        margin-top: 200%!important;
     }
     .imgStuff{
         transform: scaleX(1)!important;
@@ -80,10 +80,37 @@ strong{
 @media(max-width:500px)
 {
     .resize{
-        margin-top: 225%!important;
+        margin-top: 260%!important;
     }
     .imgStuff{
         transform: scaleX(1)!important;
         
+    }
+}
+@media(max-width:480px)
+{
+    .resize{
+        margin-top: 285%!important;
+    }
+}
+@media(max-width:440px)
+{
+    .resize{
+        margin-top: 280%!important;
+    }
+}
+@media(max-width:400px)
+{
+    .resize{
+        margin-top: 320%!important;
+    }
+    .x{
+        margin-left: 5%!important;
+    }
+}
+@media(max-width:380px)
+{
+    .resize{
+        margin-top: 360%!important;
     }
 }

@@ -72,6 +72,9 @@ h1{
     .resize{
         margin-top: 100%!important;
     }
+    .timeline{
+        margin-top: 80%!important;
+    }
 }
 
 @media(max-width:632px)
@@ -79,11 +82,18 @@ h1{
     .resize{
         margin-top: 125%!important;
     }
+    .timeline{
+        margin-top: 100%!important;
+    }
+
 }
 @media(max-width:560px)
 {
     .resize{
         margin-top: 160%!important;
+    }
+    .timeline{
+        margin-top: 130%!important;
     }
 }
 @media(max-width:500px)
@@ -91,4 +101,45 @@ h1{
     .resize{
         margin-top: 180%!important;
     }
+    .timeline{
+        margin-top: 140%!important;
+    }
 }
+
+@media(max-width:480px)
+{
+    .resize{
+        margin-top: 225%!important;
+    }
+    .timeline{
+        margin-top: 160%!important;
+    }
+}
+@media(max-width:440px)
+{
+    .resize{
+        margin-top: 280%!important;
+    }
+    .timeline{
+        margin-top: 180%!important;
+    }
+}
+@media(max-width:400px)
+{
+    .resize{
+        margin-top: 320%!important;
+    }
+    .timeline{
+        margin-top: 200%!important;
+    }
+}
+@media(max-width:380px)
+{
+    .resize{
+        margin-top: 360%!important;
+    }
+    .timeline{
+        margin-top: 220%!important;
+    }
+}
+
