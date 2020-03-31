@@ -28,7 +28,9 @@
          margin-left: 15%!important;
      }
 }
-@media(max-width:500px)
+@media(max-width:632px)
 {
-   
+    .imgStuff{
+        transform: scaleX(1)!important;
+    }
 }
