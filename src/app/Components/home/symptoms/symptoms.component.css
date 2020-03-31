@@ -1,0 +1,89 @@
+.col-md-3 .card{
+    background-color: transparent;
+    padding: 3px;
+    border-color: transparent;
+}
+.theFive{
+    color: #e94235;
+    text-shadow: 1px 1px black;
+}
+
+.card p{
+    text-align: center;
+  font-weight: 500;
+}
+strong{
+    text-shadow: 2px 2px #1f421a;
+    color: #62d152;
+}
+
+.card-body{
+    text-align: center!important;
+}
+
+.imgStuff{
+    max-height: 456px; 
+      transform: rotate(180)!important; 
+      transform: scaleX(1.5)
+}
+.x{
+    margin-left: 32%!important;
+   }
+
+@media(max-width:1125px)
+{
+    .resize{
+        margin-top: 20%!important;
+    }
+}
+
+@media(max-width:990px)
+{
+    .resize{
+        margin-top: 40%!important;
+    }
+}
+@media(max-width:850px)
+{
+    .resize{
+        margin-top: 60%!important;
+    }
+}
+@media(max-width:766px)
+{
+    .resize{
+        margin-top: 100%!important;
+    }
+}
+
+@media(max-width:632px)
+{
+    .resize{
+        margin-top: 125%!important;
+    }
+    .imgStuff{
+        transform: scaleX(1)!important;
+    }
+}
+@media(max-width:560px)
+{
+    .resize{
+        margin-top: 160%!important;
+    }
+    .imgStuff{
+        transform: scaleX(1)!important;
+    }
+    .x{
+        margin-left: 15%!important;
+    }
+}
+@media(max-width:500px)
+{
+    .resize{
+        margin-top: 225%!important;
+    }
+    .imgStuff{
+        transform: scaleX(1)!important;
+        
+    }
+}

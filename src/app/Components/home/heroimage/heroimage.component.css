@@ -1,0 +1,11 @@
+.hero{
+    text-align: center!important;
+}
+
+.hero p{
+   font-weight: 500!important;
+}
+strong{
+    text-shadow: 2px 2px #1f421a;
+    color: #62d152;
+}

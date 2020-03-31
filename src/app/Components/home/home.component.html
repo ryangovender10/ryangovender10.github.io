@@ -1,0 +1,156 @@
+<app-navbar></app-navbar>
+
+<app-heroimage></app-heroimage>
+<div *ngIf="country">
+<div class="container mb-3 resize" >
+<h1 style="text-align: center;">{{country.country}} <strong>COVID-19</strong> Statistics</h1>
+<div class="row">
+    <div class="col-md-3">
+        <div class="media border p-3 "> 
+            <a class="d-flex">
+                <img src="https://image.flaticon.com/icons/svg/2750/2750258.svg" height="50" width="50" alt="">
+            </a>
+            <div class="media-body ">
+                <h3>{{country.cases}}</h3>
+                <p>Total Number Of Cases </p> 
+            </div>
+        </div> 
+    </div>
+    <div class="col-md-3">
+        <div class="media border p-3"> 
+            <a class="d-flex">
+                <img src="https://www.flaticon.com/premium-icon/icons/svg/2746/2746245.svg" height="50" width="50" alt="">
+            </a>
+            <div class="media-body ">
+                <h3>{{country.active}}</h3>
+               <p>Active Cases </p>  
+            </div>
+        </div> 
+    </div>
+    <div class="col-md-3">
+        <div class="media border p-3"> 
+            <a class="d-flex">
+                <img src="https://image.flaticon.com/icons/svg/2746/2746372.svg" height="50" width="50" alt="">
+            </a>
+            <div class="media-body ">
+                <h3>{{country.todayCases}}</h3>
+               <p> Today's Cases</p> 
+            </div>
+        </div> 
+    </div>
+    <div class="col-md-3">
+        <div class="media border p-3"> 
+            <a class="d-flex">
+                <img src="https://image.flaticon.com/icons/svg/2750/2750844.svg" height="50" width="50" alt="">
+            </a>
+            <div class="media-body ">
+                <h3>{{country.recovered}}</h3>
+              <p>Number Recovered </p> 
+            </div>
+        </div> 
+    </div>
+   </div>
+
+   <div class="row mt-2">
+    <div class="col-md-4">
+        <div class="media border p-3"> 
+            <a class="d-flex">
+                <img src="https://image.flaticon.com/icons/svg/2615/2615180.svg" height="50" width="50" alt="">
+            </a>
+            <div class="media-body ">
+                <h3>{{country.critical}}</h3>
+                <p> Critical Cases</p>
+            </div>
+        </div> 
+    </div>
+    <div class="col-md-4">
+        <div class="media border p-3"> 
+            <a class="d-flex">
+                <img src="https://image.flaticon.com/icons/svg/1515/1515235.svg" height="50" width="50" alt="">
+            </a>
+            <div class="media-body ">
+                <h3>{{country.todayDeaths}}</h3>
+             <p>Deaths Today </p>
+            </div>
+        </div> 
+    </div>
+    <div class="col-md-4">
+        <div class="media border p-3"> 
+            <a class="d-flex">
+                <img src="https://image.flaticon.com/icons/svg/1515/1515233.svg" height="50" width="50" alt="">
+            </a>
+            <div class="media-body ">
+                <h3>{{country.deaths}}</h3>
+               <p>Total Deaths </p>
+            </div>
+        </div> 
+    </div>
+   
+   </div>
+   
+</div>
+<app-fivesteps></app-fivesteps>
+<app-symptoms></app-symptoms>
+
+
+<h1 class="text-center  py-3 resize">{{country.country}} <strong>COVID-19</strong> Timeline</h1>
+<div class="container py-2 mt-4 mb-4">
+   <!-- timeline item 1 -->
+  <div class="row no-gutters">
+    <div class="col-sm"> <!--spacer--> </div>
+    <!-- timeline item 1 center dot -->
+    <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+      <div class="row h-50">
+        <div class="col">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+      <h5 class="m-2">
+        <span class="badge badge-pill bg-danger border">&nbsp;</span>
+      </h5>
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+    </div>
+    <!-- timeline item 1 event content -->
+    <div class="col-sm py-2">
+      <div class="card shadow" style="border-color: #e94235;">
+        <div class="card-body">
+          <div class="float-right text-muted small"></div>
+          <h4 class="card-title ">{{country.firstCase  }} - First Reported Case</h4>
+          <p class="card-text"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/row-->
+  <!-- timeline item 2 -->
+  <div class="row no-gutters">
+    <div class="col-sm py-2">
+      <div class="card border-warning shadow">
+        <div class="card-body">
+          <div class="float-right text-warning small"> </div>
+          <h4 class="card-title text-dark">{{Date | date :  "MMM dd"}} - 1452 Active cases</h4>
+          <p class="card-text text-dark"></p>
+          
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+      <h5 class="m-2">
+        <span class="badge badge-pill bg-warning">&nbsp;</span>
+      </h5>
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+    </div>
+    <div class="col-sm"> <!--spacer--> </div>
+  </div>
+</div>
+<app-videolinks></app-videolinks>
+</div>

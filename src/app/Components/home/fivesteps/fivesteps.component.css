@@ -1,0 +1,33 @@
+.col-md-2 .card{
+    background-color: transparent;
+    padding: 3px;
+    border-color: transparent;
+}
+.theFive{
+    color: #e94235;
+    text-shadow: 1px 1px black;
+}
+
+.card p{
+    text-align: center;
+  font-weight: 500;
+}
+.imgStuff{
+    max-height: 456px; 
+      transform: rotate(180)!important; 
+      transform: scaleX(1.5)
+}
+
+.x{
+ margin-left: 37%!important;
+}
+@media(max-width:560px)
+{
+     .x{
+         margin-left: 15%!important;
+     }
+}
+@media(max-width:500px)
+{
+   
+}

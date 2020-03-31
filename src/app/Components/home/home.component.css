@@ -1,0 +1,94 @@
+.mediaCard{
+
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+}
+
+.hero{
+     text-align: center!important;
+}
+
+ .hero p{
+    font-weight: 500!important;
+}
+
+ strong{
+    text-shadow: 2px 2px #1f421a;
+    color: #62d152;
+}
+.media-body{
+   
+  text-align: center!important;
+}
+
+h1{
+    text-shadow: 1px 1px #1f421a;
+}
+
+
+.media-body p{
+    font-weight: 500;
+
+}
+
+.theFive{
+    color: #e94235;
+    text-shadow: 1px 1px black;
+}
+
+.card p{
+    text-align: center;
+  font-weight: 500;
+}
+
+.container .col-md-2 .card{
+    background-color: transparent;
+    padding: 3px;
+    border-color: transparent;
+}
+
+@media(max-width:1125px)
+{
+    .resize{
+        margin-top: 20%!important;
+    }
+}
+
+@media(max-width:990px)
+{
+    .resize{
+        margin-top: 40%!important;
+    }
+}
+@media(max-width:850px)
+{
+    .resize{
+        margin-top: 60%!important;
+    }
+}
+@media(max-width:766px)
+{
+    .resize{
+        margin-top: 100%!important;
+    }
+}
+
+@media(max-width:632px)
+{
+    .resize{
+        margin-top: 125%!important;
+    }
+}
+@media(max-width:560px)
+{
+    .resize{
+        margin-top: 160%!important;
+    }
+}
+@media(max-width:500px)
+{
+    .resize{
+        margin-top: 180%!important;
+    }
+}
