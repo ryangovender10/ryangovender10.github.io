@@ -1,7 +1,8 @@
-.col-md-2 .card{
+.col-lg-2 .card{
     background-color: transparent;
     padding: 3px;
     border-color: transparent;
+    text-align: center!important;
 }
 .theFive{
     color: #e94235;

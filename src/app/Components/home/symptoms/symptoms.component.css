@@ -1,4 +1,4 @@
-.col-md-3 .card{
+.col-lg-3 .card{
     background-color: transparent;
     padding: 3px;
     border-color: transparent;
@@ -40,13 +40,13 @@ strong{
 @media(max-width:990px)
 {
     .resize{
-        margin-top: 40%!important;
+        margin-top: 100%!important;
     }
 }
 @media(max-width:850px)
 {
     .resize{
-        /* margin-top: 60%!important; */
+        margin-top: 150%!important;
     }
 }
 @media(max-width:766px)

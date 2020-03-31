@@ -60,12 +60,16 @@ h1{
     .resize{
         margin-top: 40%!important;
     }
+    .timeline{
+        margin-top: 100%!important;
+    }
 }
 @media(max-width:850px)
 {
     .resize{
         margin-top: 60%!important;
     }
+    
 }
 @media(max-width:766px)
 {
